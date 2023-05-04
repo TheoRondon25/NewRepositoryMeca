@@ -12,6 +12,33 @@
         android:theme="@style/Theme.AppMFC"
         tools:targetApi="31">
         <activity
+            android:name=".TelaFaseMaturacao"
+            android:exported="false" />
+        <activity
+            android:name=".TelaFaseProliferativa"
+            android:exported="false" />
+        <activity
+            android:name=".TelaFaseInflamatoria"
+            android:exported="false" />
+        <activity
+            android:name=".TelaTempoDuracao"
+            android:exported="false" />
+        <activity
+            android:name=".TelaCicatrizacao"
+            android:exported="false" />
+        <activity
+            android:name=".TelaMicrobiano"
+            android:exported="false" />
+        <activity
+            android:name=".TelaCaracteristicas"
+            android:exported="false" />
+        <activity
+            android:name=".TelaFuncoesPele"
+            android:exported="false" />
+        <activity
+            android:name=".TelaEvolucao"
+            android:exported="false" />
+        <activity
             android:name=".TelaHistoria"
             android:exported="false" />
         <activity

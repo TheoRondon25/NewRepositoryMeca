@@ -6,17 +6,17 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-public class TelaAvaliacao extends AppCompatActivity {
+public class TelaMicrobiano extends AppCompatActivity {
 
-    ImageView btnVoltarAvaliacao;
+    ImageView botaoVoltarMicro;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_avaliacao);
-        btnVoltarAvaliacao = (ImageView) findViewById(R.id.btnVoltarAvaliacao);
+        setContentView(R.layout.activity_tela_microbiano);
+        botaoVoltarMicro = (ImageView) findViewById(R.id.btnVoltarMicrobiano);
 
-        btnVoltarAvaliacao.setOnClickListener(new View.OnClickListener() {
+        botaoVoltarMicro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 onBackPressed();
