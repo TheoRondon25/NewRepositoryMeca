@@ -22,5 +22,80 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/botao_voltar" />
+
+        <TextView
+            android:id="@+id/textView71"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Conteúdo microbiano"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView72"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:lineSpacingExtra="8sp"
+            android:text="Quanto ao conteúdo microbiano, as feridas podem ser:"
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView71" />
+
+        <TextView
+            android:id="@+id/textView73"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="• Limpas, feridas em condições assépticas, sem micro-organismos;"
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView72" />
+
+        <TextView
+            android:id="@+id/textView74"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="• Limpas contaminadas, feridas com tempo inferior a 6 horas entre o trauma e o atendimento, sem contaminação significativa;"
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView73" />
+
+        <TextView
+            android:id="@+id/textView75"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="• Contaminadas, feridas ocorridas com tempo maior que 6 horas entre o trauma e o atendimento, sem sinal de infecção;"
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView74" />
+
+        <TextView
+            android:id="@+id/textView76"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:lineSpacingExtra="8sp"
+            android:text="• Infectadas, feridas com presença de agente infeccioso no local e com evidência de intensa reação inflamatória e destruição de tecidos, podendo conter pus."
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView75"
+            app:layout_constraintVertical_bias="0.0" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

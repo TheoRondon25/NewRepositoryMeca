@@ -13,6 +13,30 @@
         android:layout_height="match_parent"
         tools:context=".TelaInicio">
 
+        <TextView
+            android:id="@+id/textView59"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="Nesse sentido, o desenvolvimento de novas técnicas e produtos para a realização de curativos e o tratamento de feridas tem exigido a criação de grupos de estudo de feridas cutâneas."
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView58" />
+
+        <TextView
+            android:id="@+id/textView56"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="Além desta avaliação, é necessário fazer o diagnóstico preciso, identificar o período evolutivo cicatricial e tratar a ferida de forma adequada, bem como aproveitar ao máximo o desempenho das equipes de saúde e dos materiais disponíveis."
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView55" />
+
         <ImageView
             android:id="@+id/btnVoltarFuncoes"
             android:layout_width="wrap_content"
@@ -22,6 +46,165 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/botao_voltar" />
+
+        <TextView
+            android:id="@+id/textView46"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Funções da pele"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView47"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:lineSpacingExtra="8sp"
+            android:text="A pele tem varias funções, como por exemplo:"
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView46" />
+
+        <TextView
+            android:id="@+id/textView48"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="• proteger o organismo contra a ação de agentes externos (físicos, químicos e biológicos);"
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView47" />
+
+        <TextView
+            android:id="@+id/textView49"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="• impedir a perda excessiva de líquidos;"
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView48" />
+
+        <TextView
+            android:id="@+id/textView50"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="• manter a temperatura corporal;"
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView49" />
+
+        <TextView
+            android:id="@+id/textView51"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="• sintetizar a vitamina D;"
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView50" />
+
+        <TextView
+            android:id="@+id/textView52"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="• agir como órgão dos sentidos;"
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView51" />
+
+        <TextView
+            android:id="@+id/textView53"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="Quando ocorre a descontinuidade do tecido epitelial, das mucosas ou de órgãos, as funções básicas de proteção da pele são comprometidas. A ferida resultante dessa descontinuidade pode ser causada por fatores extrínsecos, como incisão cirúrgica, trauma, e por fatores intrínsecos, como as produzidas por infecção. "
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView52" />
+
+        <TextView
+            android:id="@+id/textView55"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="Nessa avaliação, devem ser considerados fatores como causa e tempo de existência da ferida e presença ou não de infecção. Além disso, é preciso avaliar a dor, a presença de edema, a extensão e a profundidade da ferida e as características do leito da ferida, da pele perilesional e do exsudato. "
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView54" />
+
+        <TextView
+            android:id="@+id/textView54"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="Os profissionais que prestam cuidado ao paciente devem estar capacitados para realizar uma avaliação efetiva das feridas. "
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView53" />
+
+        <TextView
+            android:id="@+id/textView57"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="Esta avaliação deve ser continuada: é fundamental acompanhar a evolução do processo cicatricial, a cobertura da ferida e os produtos utilizados, devendo o profissional de saúde estar apto a realizar esta avaliação e seu acompanhamento."
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView56" />
+
+        <TextView
+            android:id="@+id/textView58"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="A cicatrização é um  processo fisiológico e dinâmico que busca restaurar a continuidade dos tecidos. Conhecer a fisiopatologia da cicatrização e os fatores que podem acelerá-la  ou retardá-la proporciona uma melhor avaliação e a escolha do tratamento mais adequado."
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView57" />
+
+        <TextView
+            android:id="@+id/textView60"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:lineSpacingExtra="8sp"
+            android:text="Diante da complexidade do cuidado com as feridas, o papel do profissional da saúde não se restringe à avaliação de feridas e a sugestões de tratamento. Para garantir um cuidado efetivo, é necessário orientar e educar a equipe de saúde para monitorar o progresso da cicatrização, avaliar a efetividade das intervenções realizadas e o tratamento utilizado. Também é importante a equipe multidisciplinar orientar e motivar o paciente para a realização do autocuidado."
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView59" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
 

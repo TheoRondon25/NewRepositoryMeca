@@ -22,5 +22,130 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/botao_voltar" />
+
+        <TextView
+            android:id="@+id/textView61"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Características das feridas"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView62"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:lineSpacingExtra="8sp"
+            android:text="As feridas podem ser classificadas quanto à causa, ao conteúdo microbiano, ao tipo de cicatrização, ao grau de abertura e ao tempo de duração."
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView61" />
+
+        <TextView
+            android:id="@+id/textView63"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="Quanto à causa, as feridas podem ser:"
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView62" />
+
+        <TextView
+            android:id="@+id/textView64"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="• Cirúrgicas, feridas provocadas intencionalmente, mediante:"
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView63" />
+
+        <TextView
+            android:id="@+id/textView65"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="Incisão: quando  não  há  perda  de  tecido  e  as  bordas  são  geralmente fechadas por sutura;"
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView64" />
+
+        <TextView
+            android:id="@+id/textView66"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="Excisão: quando  há  remoção de  uma  área  de  pele  (por  exemplo,  área doadora de enxerto);"
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView65" />
+
+        <TextView
+            android:id="@+id/textView67"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="Punção: quando  resultam  de  procedimentos  terapêuticos  diagnósticos  (por exemplo, cateterismo cardíaco, punção de subclávia, biópsia, entre outros)."
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView66" />
+
+        <TextView
+            android:id="@+id/textView68"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="• Traumáticas, feridas provocadas acidentalmente por agente:"
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView67" />
+
+        <TextView
+            android:id="@+id/textView69"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="Mecânico: contenção, perfuração ou corte; Químico: iodo, cosméticos, ácido sulfúrico etc.; Físico: frio, calor ou radiação."
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView68" />
+
+        <TextView
+            android:id="@+id/textView70"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:lineSpacingExtra="8sp"
+            android:text="• Ulcerativas, feridas escavadas, circunscritas na pele (formadas por necrose, sequestração do tecido), resultantes de traumatismo ou doenças relacionadas com o impedimento  do  suprimento  sanguíneo.  As úlceras  de  pele  representam  uma categoria de feridas que incluem úlceras por pressão, de estase venosa, arteriais e diabéticas."
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView69"
+            app:layout_constraintVertical_bias="0.0" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

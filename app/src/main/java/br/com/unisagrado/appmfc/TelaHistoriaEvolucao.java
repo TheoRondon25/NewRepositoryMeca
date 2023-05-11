@@ -40,7 +40,7 @@ public class TelaHistoriaEvolucao extends AppCompatActivity {
             }
         });
     }
-    public void onBackPressed() {
+   public void onBackPressed() {
         super.onBackPressed();
     }
     private void abreTelaHistoria() {

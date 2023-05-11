@@ -22,5 +22,81 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/botao_voltar" />
+
+        <TextView
+            android:id="@+id/textView94"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Fase Proliferativa"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView95"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:lineSpacingExtra="8sp"
+            android:text="Conforme as respostas agudas de hemostasia e inflamação, é iniciado o reparo da ferida por meio da angiogênese, fibroplasia e epitelização. Este estágio é caracterizado pela formação de tecido granuloso, que consiste de  leito capilar, fibroblasto, macrófagos e rede de colágeno, fibronectina e ácido hialurônico."
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView94" />
+
+        <TextView
+            android:id="@+id/textView96"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="A angiogênese é o processo de formação de novos vasos sanguíneos, necessários para suportar o ambiente de cicatrização da ferida."
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView95" />
+
+        <TextView
+            android:id="@+id/textView97"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="Os fibroblastos são células especializadas que se diferenciam a partir das células mesenquimais em repouso no tecido conjuntivo, e que não chegam ao local da ferida por diapedese das células circulantes. Após a ferida,  os fibroblastos quiescentes são atraídos quimicamente ao sítio de inflamação, onde se dividem e produzem componentes da matriz extracelular."
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView96" />
+
+        <TextView
+            android:id="@+id/textView98"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="A epiderme serve como barreira física para prevenir perdas de fluidos e invasão por bactérias. As apertadas junções celulares dentro do epitélio contribuem para sua impermeabilidade, e a membrana basal dá suporte  estrutural e provê ligação entre a epiderme e a derme. A reepitelização de feridas começa poucas horas após a lesão. "
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView97" />
+
+        <TextView
+            android:id="@+id/textView99"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:lineSpacingExtra="8sp"
+            android:text="Inicialmente, a ferida é rapidamente selada pela formação de coágulos e, após, por migração de células epiteliais. Queratinócitos localizados na camada basal da epiderme residual, ou profundamente no epitélio, migram para a superfície da ferida. A epitelização envolve uma sequência de mudanças nos queratinócitos de feridas: o desapego, a migração, a proliferação, a diferenciação e a estratificação."
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView98"
+            app:layout_constraintVertical_bias="0.0" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

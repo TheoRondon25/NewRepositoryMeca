@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:fillViewport="true"
+    tools:context=".TelaControleDor">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".TelaControleDor">
+
+        <ImageView
+            android:id="@+id/btnVoltarControleDor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/botao_voltar" />
+
+        <TextView
+            android:id="@+id/textView137"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Controle da dor e o uso de analgésicos"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView138"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:lineSpacingExtra="8sp"
+            android:text="     A dor é uma das principais causas de sofrimento humano, portanto, sua avaliação se constitui numa premissa da prática clínica. Para identificar a causa desencadeante da dor e ter condições de aliviá-la, é necessário um cuidado individualizado."
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView137" />
+
+        <TextView
+            android:id="@+id/textView139"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="     O inadequado alívio da dor na presença de feridas e na troca da cobertura dificulta a realização adequada do curativo, com prejuízo à cicatrização e desconforto ou dor ao paciente. Portanto, a analgesia prévia ao curativo, conforme  prescrição médica, é necessária para que se possam remover do leito da ferida o curativo, os agentes inflamatórios, os corpos estranhos e os tecidos desvitalizados com o mínimo de desconforto para o paciente. Nesse processo, o uso de  soro morno também auxilia a minimizar a dor."
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView138" />
+
+        <TextView
+            android:id="@+id/textView140"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="     A dor pode ser classificada como: a dor local, a dor ocasional, a dor produzida durante o curativo e a dor relacionada aos procedimentos cirúrgicos."
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView139" />
+
+        <TextView
+            android:id="@+id/textView141"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="     A dor local é aquela que o paciente sente sem haver manipulação da ferida. Ela pode ser contínua ou intermitente. Está relacionada a fatores subjacentes da ferida, a fatores locais como isquemia ou infecção, ou a outras patologias relevantes, como neuropatia diabética, doença vascular periférica, artrite reumatoide ou alterações dermatológicas. Os fatores locais da dor nas feridas incluem a isquemia no sítio ou perilesional, a presença de infecção local ou subjacente, a umidade, a presença de exsudato, o edema e a maceração da pele."
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView140" />
+
+        <TextView
+            android:id="@+id/textView142"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="     A dor ocasional, por sua vez, está relacionada com as atividades cotidianas, como a deambulação, a tosse ou o deslizamento da cobertura sobre a ferida."
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView141" />
+
+        <TextView
+            android:id="@+id/textView143"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="     A dor produzida durante o curativo ou procedimento decorre de rotinas básicas, como a troca de cobertura, a limpeza da ferida e a aplicação de nova cobertura. Reduzir a dor requer avaliação, pelos profissionais da saúde, de fatores subjacentes à ferida ou patologias associadas, já que ela é uma experiência subjetiva, interna, complexa e pessoal."
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView142" />
+
+        <TextView
+            android:id="@+id/textView144"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="     A avaliação sistematizada da dor faz parte do Processo de Enfermagem. A dor é atualmente considerada o 5° sinal vital e, na sua presença, é preciso tratá-la e reavaliar a eficácia do tratamento instituído, medicamentoso ou não. Para saber se o paciente tem dor na troca de coberturas, deve-se questioná-lo, aceitar e respeitar sua alegação, porque é ele quem melhor pode definir sua dor. É necessário, ainda, intervir de maneira eficaz para seu conforto antes, durante  e após a troca de coberturas."
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView143" />
+
+        <TextView
+            android:id="@+id/textView145"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="     Também convém não esquecer que há pacientes que não conseguem se comunicar. Para eles, uma adequada avaliação em relação à dor se dá através de sinais indiretos que a identificam, como sudorese, taquicardia, tensão muscular, posição antálgica e fácies de dor (franzir a testa, fechar os olhos)."
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView144" />
+
+        <TextView
+            android:id="@+id/textView146"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:lineSpacingExtra="8sp"
+            android:text="     A avaliação do paciente com dor, portanto, deve ser sistemática. O profissional da saúde deve avaliar a presença de dor antes de realizar a troca da cobertura ou o tratamento da ferida e permanecer atento ao relato ou sinais de dor,  além de promover analgesia preventiva."
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView145"
+            app:layout_constraintVertical_bias="0.0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,30 +1,234 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
+    android:fillViewport="true"
     tools:context=".TelaHistoriaEvolucao">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".TelaHistoriaEvolucao">
 
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
-        android:text="AVALIAÇÃO DA FERIDA"
-        android:textColor="#000000"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:id="@+id/textView117"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="     Nesse caso, deve-se avaliar todo o processo, observando as causas e optando por uma das terapias corretivas, que poderá ser desbridamento do tecido morto, enxerto de pele no local, uso de agentes biológicos e terapias adjuntas."
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView116" />
 
-    <ImageView
-        android:id="@+id/btnVoltarAvaliacao"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="15dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/botao_voltar" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:id="@+id/textView110"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="     A sistematização do tratamento de feridas ocorre por meio de ações simples que visam remover as barreiras que impedem a cicatrização. Essas barreiras são expressas na palavra TIME, onde cada letra significa uma barreira a ser removida da lesão."
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView109" />
+
+        <TextView
+            android:id="@+id/textView109"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="     Os princípios do conceito clínico são baseados no manejo local de feridas estagnadas ou que não cicatrizam, a partir de desbridamento, manejo do exsudato e resolução do desequilíbrio bacteriano."
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView108" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="AVALIAÇÃO DA FERIDA"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/btnVoltarAvaliacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/botao_voltar" />
+
+        <TextView
+            android:id="@+id/textView103"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:lineSpacingExtra="8sp"
+            android:text="     Para a escolha de um curativo adequado, é essencial uma avaliação criteriosa da ferida e o estabelecimento de um diagnóstico de enfermagem acurado. Para tanto, é necessário levar em consideração as evidências clínicas observadas quanto à localização anatômica, forma, tamanho, profundidade, bordos, presença de tecido de granulação e quantidade de tecido necrótico, sua drenagem e as condições da pele perilesional."
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+        <TextView
+            android:id="@+id/textView104"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="     Na classificação de diagnósticos de enfermagem da NANDA –I (2009-2011), no domínio 11, denominado segurança e proteção, na classe 2, são apontados os seguintes diagnósticos a serem estabelecidos em situações de lesões físicas definidas como dano ou ferimento ao organismo:"
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView103" />
+
+        <TextView
+            android:id="@+id/textView105"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="a)integridade da pele prejudicada;"
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView104" />
+
+        <TextView
+            android:id="@+id/textView106"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="b)integridade tissular prejudicada;"
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView105" />
+
+        <TextView
+            android:id="@+id/textView107"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="c)risco de integridade da pele prejudicada."
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView106" />
+
+        <TextView
+            android:id="@+id/textView108"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="     Estes diagnósticos de enfermagem podem ser identificados de acordo com as características de cada situação clínica e seus fatores relacionados ou de risco."
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView107" />
+
+        <TextView
+            android:id="@+id/textView111"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="     As letras da sigla TIME referem-se às palavras inglesas tissue (tecido não viável), infection (infecção/inflamação), moisture (manutenção do meio úmido) e edge (epitelização das bordas da lesão). São quatro componentes da cicatrização  da ferida importantes na preparação do leito e na orientação das decisões terapêuticas dos profissionais."
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView110" />
+
+        <TextView
+            android:id="@+id/textView112"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="     Para atingir um bom resultado em termos de cicatrização, é preciso observar esses quatro princípios, sendo necessário que cada um deles apresente um status adequado para que seja possível a progressão do processo cicatricial."
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView111" />
+
+        <TextView
+            android:id="@+id/textView113"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="     T (Tecido inviável) – Para o preparo da ferida, é necessário avaliar as condições do tecido. Se ele estiver inviável, necrótico ou deficiente, é recomendável realizar o desbridamento, que pode ser instrumental, autolítico, enzimático, mecânico ou biológico. O desbridamento tem a finalidade de remover o tecido desvitalizado, restaurar a base da ferida e da matriz extracelular e obter tecido viável no leito da ferida."
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView112" />
+
+        <TextView
+            android:id="@+id/textView114"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="     I (Infecção ou inflamação) – Trata-se aqui do tecido com alta conta gembacteriana ou inflamação prolongada, com número elevado de citocinas inflamatórias. Atividade das proteases e baixa atividade dos fatores de crescimento são prejudiciais para a cicatrização. Nessa situação, é necessário realizara limpeza da ferida e avaliar as condições tópicas sistêmicas e o uso de anti-inflamatórios e antimicrobianos."
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView113" />
+
+        <TextView
+            android:id="@+id/textView115"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="     M (Manutenção da umidade) – Para que ocorra a cicatrização, é necessário equilíbrio da umidade da ferida. Enquanto o leito da ferida ressecado ocasiona uma migração lenta das células epiteliais, o excesso de exsudato também é prejudicial, pois pode provocar maceração da margem e da pele perilesional. Nessas condições, é preciso estimular a migração das células epiteliais, para evitar ressecamento e maceração, e controlar o edema e o excesso de fluidos."
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView114" />
+
+        <TextView
+            android:id="@+id/textView116"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="     E (Epitelização das bordas) – É a situação em que, no processo de cicatrização, há progressão da cobertura epitelial a partir das bordas. Quando não há migração de queratinócitos, as células da ferida não respondem; há matriz extracelular, mas a atividade das proteases é anormal."
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView115" />
+
+        <TextView
+            android:id="@+id/textView118"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:lineSpacingExtra="8sp"
+            android:text="     Com o uso das terapias adequadas, ocorre a migração de queratinócitos e resposta das células, com restauração apropriada do perfil de proteases, cujo resultado é o avanço da margem da ferida."
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView117"
+            app:layout_constraintVertical_bias="0.0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

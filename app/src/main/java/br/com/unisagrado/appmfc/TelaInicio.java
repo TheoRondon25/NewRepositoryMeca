@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class TelaInicio extends AppCompatActivity {
 
-    Button botaoHistoEvolucao, botaoIntro, botaoFisiologia, botaoAvaliacao;
+    Button botaoHistoEvolucao, botaoIntro, botaoFisiologia, botaoAvaliacao, botaoTratamento;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +19,7 @@ public class TelaInicio extends AppCompatActivity {
         botaoIntro = (Button) findViewById(R.id.btnIntroTratamento);
         botaoFisiologia = (Button) findViewById(R.id.btnFisiologia);
         botaoAvaliacao = (Button) findViewById(R.id.btnAvaliacao);
+        botaoTratamento = (Button) findViewById(R.id.btnTratamento);
 
 
         botaoHistoEvolucao.setOnClickListener((new View.OnClickListener() {
@@ -43,8 +44,20 @@ public class TelaInicio extends AppCompatActivity {
             @Override
             public void onClick(View v) { abreTelaAvaliacao(); }
         }));
+        botaoTratamento.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                abreTelaTratamento();
+            }
+        });
 
     }
+
+    private void abreTelaTratamento() {
+        Intent TelaTrat = new Intent(this, TelaTratamentoFerida.class);
+        startActivity(TelaTrat);
+    }
+
     private void abreTelaHistEvol() {
         Intent TelaHistoEvol = new Intent(this, TelaHistoriaEvolucao.class);
         startActivity(TelaHistoEvol);

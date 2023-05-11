@@ -9,9 +9,73 @@
     tools:context=".TelaInicio">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".TelaHistoria">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".TelaHistoria">
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:lineSpacingExtra="8sp"
+            android:text="     Entretanto nessa época houve uma grande escassez de óleo, o que possibilitou a substituição por gema de ovo e óleo de rosa, o que aumentou a taxa de sobrevida da população."
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView30"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="     Ao relembrarmos a história do tratamento de feridas não podemos nos esquecer de Hipócrates (300 a.C), considerado o pai da medicina moderna que foi o primeiro a implementar os princípios da assepsia, no tratamento das feridas."
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="     A igreja contribuiu, e muito, para a divulgação dessa teoria e proibiu a dissecação e métodos cirúrgicos impedindo a evolução das técnicas. Já Teodorico de Lucca e Henri de Mondeville utilizaram pensos embebidos em arnica e vinho (ação antisséptica). E observaram que havia diminuição da formação de secreção e aumento da cicatrização."
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="     Chegando a era do Misticismo, temos a Teoria dos Miasmas, nesta teoria os corpos deviam ser ncinerados e após, deveria ser feita a defumação do local com incenso."
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="     Já os médicos árabes foram os inventores da ligadura de gesso."
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView22" />
 
         <ImageView
             android:id="@+id/btnVoltarHist"
@@ -22,5 +86,169 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/botao_voltar" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="A História"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:lineSpacingExtra="8sp"
+            android:text="     Os homens da pré-história utilizavam plantas e seus extratos como cataplasmas, para estancar hemorragias e umidificar as feridas abertas. Sendo o cataplasma um emplasto de substâncias preparadas com linhaça, massa de argila, farinha de mandioca ou fubá colocadas entre dois panos, com capacidade de absorção das toxinas da pele e para tratar hematomas."
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="     O Papiro de Edwins Smith foi a descoberta mais recente da história. Era chamado o Livro de feridas, continha tratados cirúrgicos e de clínica médica."
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="     Por volta de 2700 a.C. os egípcios utilizavam produtos que, hoje, denominamos “Fármacos da sujeira”, esses produtos eram derivados de produtos aparentemente absurdos como urina humana e outros, associados a orações e sacrifícios. Os médicos egípcios acreditavam que quanto mais a ferida supurava, mais rápida era a cicatrização."
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="     Foram os precursores do adesivo atual, com a descoberta da ligadura adesiva, que consistia em tiras de linho impregnado de goma."
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="     Os chineses em 2800 a.C. foram os primeiros a relatar o uso do mercúrio, os mexicanos e peruanos utilizavam o Mactellu como antissépticos para feridas."
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="     Quando falamos da civilização Grega, chegamos ao clássico A Ilíada, escrita por Homero (800 a.C) que descreve o tratamento de 147 feridos militares utilizando práticas de cauterização de feridas com ferro quente. Nessa época a taxa de mortalidade era bastante elevada."
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="     Na era Cristã, Celsius (200 d.C): classificou tipos de ferida, definiu tratamentos, descreveu os sinais inflamatórios, técnicas de desbridamento e sutura."
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="     No período medieval, Galeno (século II d.C), que era médico do grande imperador Marco Aurélio, instaurou a teoria da secreção purulenta. Nessa teoria acreditava-se que a formação da secreção era fundamental para a cicatrização."
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="     Usava na sua terapêutica:                                      • Água do mar, do mel, tinta de caneta e barro.                                                                 • As lesões ulceradas eram ligadas com figos (que contêm Papaína).                                          • Teia de aranha."
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="     Não acreditava que a formação de pus fosse essencial para a cicatrização (teoria que existiu por séculos) e quando a ferida infeccionava, utilizava emplastos para drenagem de secreção e que esta deveria ser lavada com água limpa."
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView26" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="     Fez uso de ervas medicinais, mel, leite e vinagre. Aconselhava desbridamentos e cauterizações. Avançando ainda mais na história, chegamos à Revolução Industrial, marco da história mundial. No século XVIII, alguns prisioneiros se dedicavam a confecção de pensos. Esses eram feitos de trapos velhos, estopa de linho e estopa (corda velha desfiada)."
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="     Os pensos eram utilizados e depois lavados e reutilizados, já que esse processo os tornava mais macios e absorventes. Com a revolução industrial aconteceu a mecanização desse processo de confecção. Infelizmente, com a evolução dos tempos começaram as guerras locais e mundiais."
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="     Com a guerra da Crimeia deu-se a introdução da pólvora no mundo ocidental. As feridas causadas por pólvora eram venenosas e era necessária a remoção da parte lesada (amputação) e para cauterizar o coto era utilizado óleo fervente."
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView29" />
+
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

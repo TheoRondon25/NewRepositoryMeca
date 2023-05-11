@@ -14,6 +14,17 @@
         tools:context=".TelaInicio">
 
         <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnTratamento"
+            style="@style/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Tratamento da ferida"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnAvaliacao" />
+
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnAvaliacao"
             style="@style/button"
             android:layout_width="match_parent"
@@ -88,7 +99,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btnAvaliacao" />
+            app:layout_constraintTop_toBottomOf="@+id/btnTratamento" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
