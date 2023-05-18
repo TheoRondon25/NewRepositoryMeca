@@ -29,6 +29,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:text="Avaliação das condições clínicas"
+            android:textColor="#000000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -42,6 +43,7 @@
             android:lineSpacingExtra="8sp"
             android:text="     Todo paciente deve ser avaliado de forma ampla, uma vez que um paciente descompensado clinicamente terá um processo de cicatrização mais difícil. Apresentam-se a seguir os fatores a serem considerados nesta avaliação."
             android:textAlignment="textStart"
+            android:textColor="#000000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -54,6 +56,7 @@
             android:lineSpacingExtra="8sp"
             android:text="• Idade: é um dos aspectos sistêmicos mais importantes, um cofator de risco tanto para o surgimento de lesões, como para a sua manutenção, já que ela interfere no funcionamento de todos os sistemas fisiológicos corporais. A idade avançada está associada a uma série de alterações nutricionais, metabólicas, vasculares e imunológicas e, muitas vezes, às doenças crônicas, que tornam o indivíduo mais suscetível ao trauma e à infecção."
             android:textAlignment="textStart"
+            android:textColor="#000000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -64,8 +67,9 @@
             android:layout_width="375dp"
             android:layout_height="wrap_content"
             android:lineSpacingExtra="8sp"
-            android:text="• Estado nutricional: as proteínas são fundamentais para todos os aspectos da cicatrização, desde a síntese de colágeno e a proliferação epidérmica, até a neovascularização. "
+            android:text="      • Estado nutricional: as proteínas são fundamentais para todos os aspectos da cicatrização, desde a síntese de colágeno e a proliferação epidérmica, até a neovascularização. "
             android:textAlignment="textStart"
+            android:textColor="#000000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -78,6 +82,7 @@
             android:lineSpacingExtra="8sp"
             android:text="     Destacam-se os seguintes nutrientes: "
             android:textAlignment="textStart"
+            android:textColor="#000000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -88,8 +93,9 @@
             android:layout_width="375dp"
             android:layout_height="wrap_content"
             android:lineSpacingExtra="8sp"
-            android:text="• vitamina A: essencial à formação e manutenção da integridade do tecido epitelial;"
+            android:text="     • vitamina A: essencial à formação e manutenção da integridade do tecido epitelial;"
             android:textAlignment="textStart"
+            android:textColor="#000000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -100,22 +106,39 @@
             android:layout_width="375dp"
             android:layout_height="wrap_content"
             android:lineSpacingExtra="8sp"
-            android:text="• vitaminas do complexo B: necessárias para a efetiva ligação cruzada entre as fibras colágenas, para a função linfocitária e a produção de anticorpos;"
+            android:text="     • vitaminas do complexo B: necessárias para a efetiva ligação cruzada entre as fibras colágenas, para a função linfocitária e a produção de anticorpos;"
             android:textAlignment="textStart"
+            android:textColor="#000000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView124" />
 
         <TextView
+            android:id="@+id/textView128"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="     • água: o mais importante nutriente; corresponde a cerca de 55% do peso corporal e compõe todas as atividades celulares e funções fisiológicas."
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.516"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView127" />
+
+        <TextView
             android:id="@+id/textView126"
             android:layout_width="375dp"
             android:layout_height="wrap_content"
             android:lineSpacingExtra="8sp"
-            android:text="• vitamina C: essencial para a hidroxilação da lisina e da prolina no processo de síntese de colágeno. É importante, também, para a produção de fibroblastos e para a integridade capilar;"
+            android:text="     • vitamina C: essencial para a hidroxilação da lisina e da prolina no processo de síntese de colágeno. É importante, também, para a produção de fibroblastos e para a integridade capilar;"
             android:textAlignment="textStart"
+            android:textColor="#000000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.516"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView125" />
 
@@ -124,36 +147,14 @@
             android:layout_width="375dp"
             android:layout_height="wrap_content"
             android:lineSpacingExtra="8sp"
-            android:text="• oligoelementos, como zinco, ferro, cobre e manganês: necessários para a formação do colágeno;"
+            android:text="     • oligoelementos, como zinco, ferro, cobre e manganês: necessários para a formação do colágeno;"
             android:textAlignment="textStart"
+            android:textColor="#000000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.516"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView126" />
-
-        <TextView
-            android:id="@+id/textView128"
-            android:layout_width="375dp"
-            android:layout_height="wrap_content"
-            android:lineSpacingExtra="8sp"
-            android:text="• água: o mais importante nutriente; corresponde a cerca de 55% do peso corporal e compõe todas as atividades celulares e funções fisiológicas."
-            android:textAlignment="textStart"
-            android:textSize="18sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.511"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView127" />
-
-        <TextView
-            android:id="@+id/textView129"
-            android:layout_width="375dp"
-            android:layout_height="wrap_content"
-            android:lineSpacingExtra="8sp"
-            android:text="• Imobilidade: é um fator que limita e reduz a cicatrização da ferida, por diminuir o aporte sanguíneo e aumentar o risco de isquemia tecidual. "
-            android:textSize="18sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView128" />
 
         <TextView
             android:id="@+id/textView130"
@@ -162,8 +163,10 @@
             android:lineSpacingExtra="8sp"
             android:text="     Pacientes com percepção sensorial diminuída e imobilizados no leito não percebem ou não conseguem reagir ao desconforto ocasionado pelo excesso de pressão nas regiões de proeminências ósseas e, portanto, têm maior dependência para se  movimentarem. Esses pacientes precisam de assistência da enfermagem para aliviar a pressão nos tecidos. A pressão excessiva contribui para o desenvolvimento da úlcera de pressão, por induzir à isquemia e à necrose dos tecidos."
             android:textAlignment="textStart"
+            android:textColor="#000000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.516"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView129" />
 
@@ -172,10 +175,12 @@
             android:layout_width="375dp"
             android:layout_height="wrap_content"
             android:lineSpacingExtra="8sp"
-            android:text="• Vascularização: a oxigenação e perfusão tissular são condições essenciais para a manutenção da integridade e sucesso na reparação tissular. Indivíduos portadores de insuficiência arterial ou venosa podem desenvolver ulcerações distais que tendem à cronificação. O tabagismo também é um componente importante na ocorrência da hipóxia, devido à ação vasoconstritora da nicotina."
+            android:text="     • Vascularização: a oxigenação e perfusão tissular são condições essenciais para a manutenção da integridade e sucesso na reparação tissular. Indivíduos portadores de insuficiência arterial ou venosa podem desenvolver ulcerações distais que tendem à cronificação. O tabagismo também é um componente importante na ocorrência da hipóxia, devido à ação vasoconstritora da nicotina."
             android:textAlignment="textStart"
+            android:textColor="#000000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.516"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView130" />
 
@@ -184,10 +189,12 @@
             android:layout_width="375dp"
             android:layout_height="wrap_content"
             android:lineSpacingExtra="8sp"
-            android:text="• Condições sistêmicas: uma das mais importantes é o diabetes mellitus, que reduz a resposta inflamatória e aumenta o risco de infecção. Já a neuropatia diminui a percepção sensorial, aumentando o risco para o desenvolvimento de feridas."
+            android:text="     • Condições sistêmicas: uma das mais importantes é o diabetes mellitus, que reduz a resposta inflamatória e aumenta o risco de infecção. Já a neuropatia diminui a percepção sensorial, aumentando o risco para o desenvolvimento de feridas."
             android:textAlignment="textStart"
+            android:textColor="#000000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.516"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView131" />
 
@@ -198,8 +205,10 @@
             android:lineSpacingExtra="8sp"
             android:text="     A insuficiência renal, por sua vez, interfere na manutenção da pressão arterial, no equilíbrio hidroeletrolítico e no processo de coagulação. Além dessas, existem outras condições sistêmicas, como as doenças reumatológica, hepática, neurológica, intestinal, hematológica, que, por mecanismos diretos ou indiretos, influenciam negativamente no processo de reparação tissular ou predispõem o indivíduo a riscos maiores de desenvolvimento de feridas."
             android:textAlignment="textStart"
+            android:textColor="#000000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.516"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView132" />
 
@@ -210,9 +219,10 @@
             android:lineSpacingExtra="8sp"
             android:text="     Alguns tratamentos sistêmicos podem comprometer o processo de reparação tissular, como radioterapia, quimioterapia, esteroides e drogas anti-inflamatórias e imunossupressoras."
             android:textAlignment="textStart"
+            android:textColor="#000000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.511"
+            app:layout_constraintHorizontal_bias="0.516"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView133" />
 
@@ -223,8 +233,10 @@
             android:lineSpacingExtra="8sp"
             android:text="     Fatores locais: são desencadeados por doença arterial, infecção bacteriana, uso de agentes tópicos citotóxicos ou presença de tecido necrosado."
             android:textAlignment="textStart"
+            android:textColor="#000000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.516"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView134" />
 
@@ -234,14 +246,29 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:lineSpacingExtra="8sp"
-            android:text="• Fatores psicossociais: ausência de redes sociais ou de sistemas de suporte, isolamento, dificuldades financeiras, comportamento de não adesão aos protocolos de tratamento, não comparecimento às consultas, não remoção de curativos, abuso de substâncias, dor etc."
+            android:text="     • Fatores psicossociais: ausência de redes sociais ou de sistemas de suporte, isolamento, dificuldades financeiras, comportamento de não adesão aos protocolos de tratamento, não comparecimento às consultas, não remoção de curativos, abuso de substâncias, dor etc."
             android:textAlignment="textStart"
+            android:textColor="#000000"
             android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintHorizontal_bias="0.516"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView135"
             app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView129"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="     • Imobilidade: é um fator que limita e reduz a cicatrização da ferida, por diminuir o aporte sanguíneo e aumentar o risco de isquemia tecidual. "
+            android:textColor="#000000"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.516"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView128" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

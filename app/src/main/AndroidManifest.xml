@@ -12,6 +12,9 @@
         android:theme="@style/Theme.AppMFC"
         tools:targetApi="31">
         <activity
+            android:name=".TelaCredito"
+            android:exported="false"/>
+        <activity
             android:name=".TelaControleDor"
             android:exported="false" />
         <activity

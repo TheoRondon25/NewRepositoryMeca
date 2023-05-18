@@ -6,10 +6,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class TelaInicio extends AppCompatActivity {
 
     Button botaoHistoEvolucao, botaoIntro, botaoFisiologia, botaoAvaliacao, botaoTratamento;
+
+    TextView botaoCredito;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,8 +23,14 @@ public class TelaInicio extends AppCompatActivity {
         botaoFisiologia = (Button) findViewById(R.id.btnFisiologia);
         botaoAvaliacao = (Button) findViewById(R.id.btnAvaliacao);
         botaoTratamento = (Button) findViewById(R.id.btnTratamento);
+        botaoCredito = (TextView) findViewById(R.id.btnCreditos);
 
-
+        botaoCredito.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                abreTelaCredito();
+            }
+        });
         botaoHistoEvolucao.setOnClickListener((new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -51,6 +60,11 @@ public class TelaInicio extends AppCompatActivity {
             }
         });
 
+    }
+
+    private void abreTelaCredito() {
+        Intent TelaCred = new Intent(this, TelaCredito.class);
+        startActivity(TelaCred);
     }
 
     private void abreTelaTratamento() {
