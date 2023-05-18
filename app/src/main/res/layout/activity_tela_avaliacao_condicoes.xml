@@ -54,7 +54,7 @@
             android:layout_width="375dp"
             android:layout_height="wrap_content"
             android:lineSpacingExtra="8sp"
-            android:text="• Idade: é um dos aspectos sistêmicos mais importantes, um cofator de risco tanto para o surgimento de lesões, como para a sua manutenção, já que ela interfere no funcionamento de todos os sistemas fisiológicos corporais. A idade avançada está associada a uma série de alterações nutricionais, metabólicas, vasculares e imunológicas e, muitas vezes, às doenças crônicas, que tornam o indivíduo mais suscetível ao trauma e à infecção."
+            android:text="     • Idade: é um dos aspectos sistêmicos mais importantes, um cofator de risco tanto para o surgimento de lesões, como para a sua manutenção, já que ela interfere no funcionamento de todos os sistemas fisiológicos corporais. A idade avançada está associada a uma série de alterações nutricionais, metabólicas, vasculares e imunológicas e, muitas vezes, às doenças crônicas, que tornam o indivíduo mais suscetível ao trauma e à infecção."
             android:textAlignment="textStart"
             android:textColor="#000000"
             android:textSize="18sp"
