@@ -20,6 +20,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"
             android:text="Avaliação das condições fisicas"
+            android:textColor="#000000"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView45" />
