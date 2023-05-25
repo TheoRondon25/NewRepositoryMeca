@@ -77,7 +77,7 @@
             android:id="@+id/textView103"
             android:layout_width="375dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="20dp"
             android:lineSpacingExtra="8sp"
             android:text="     Para a escolha de um curativo adequado, é essencial uma avaliação criteriosa da ferida e o estabelecimento de um diagnóstico de enfermagem acurado. Para tanto, é necessário levar em consideração as evidências clínicas observadas quanto à localização anatômica, forma, tamanho, profundidade, bordos, presença de tecido de granulação e quantidade de tecido necrótico, sua drenagem e as condições da pele perilesional."
             android:textAlignment="textStart"
@@ -85,7 +85,7 @@
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView7" />
+            app:layout_constraintTop_toBottomOf="@+id/imageView15" />
 
         <TextView
             android:id="@+id/textView104"
@@ -246,5 +246,15 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView117"
             app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="375dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView7"
+            app:srcCompat="@drawable/img_13" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

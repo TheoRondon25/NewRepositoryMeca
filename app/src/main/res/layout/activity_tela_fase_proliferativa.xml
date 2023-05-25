@@ -28,9 +28,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:text="Fase Proliferativa"
+            android:text="FASE PROLIFERATIVA"
             android:textColor="#000000"
-            android:textSize="20sp"
+            android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -39,7 +39,7 @@
             android:id="@+id/textView95"
             android:layout_width="375dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="15dp"
             android:lineSpacingExtra="8sp"
             android:text="     Conforme as respostas agudas de hemostasia e inflamação, é iniciado o reparo da ferida por meio da angiogênese, fibroplasia e epitelização. Este estágio é caracterizado pela formação de tecido granuloso, que consiste de  leito capilar, fibroblasto, macrófagos e rede de colágeno, fibronectina e ácido hialurônico."
             android:textAlignment="textStart"
@@ -47,7 +47,7 @@
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView94" />
+            app:layout_constraintTop_toBottomOf="@+id/imageView11" />
 
         <TextView
             android:id="@+id/textView96"
@@ -67,7 +67,7 @@
             android:layout_width="375dp"
             android:layout_height="wrap_content"
             android:lineSpacingExtra="8sp"
-            android:text="Os fibroblastos são células especializadas que se diferenciam a partir das células mesenquimais em repouso no tecido conjuntivo, e que não chegam ao local da ferida por diapedese das células circulantes. Após a ferida,  os fibroblastos quiescentes são atraídos quimicamente ao sítio de inflamação, onde se dividem e produzem componentes da matriz extracelular."
+            android:text="     Os fibroblastos são células especializadas que se diferenciam a partir das células mesenquimais em repouso no tecido conjuntivo, e que não chegam ao local da ferida por diapedese das células circulantes. Após a ferida,  os fibroblastos quiescentes são atraídos quimicamente ao sítio de inflamação, onde se dividem e produzem componentes da matriz extracelular."
             android:textAlignment="textStart"
             android:textColor="#000000"
             android:textSize="18sp"
@@ -104,5 +104,15 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView98"
             app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="375dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView94"
+            app:srcCompat="@drawable/img_9" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

@@ -53,9 +53,10 @@
             android:id="@+id/textView43"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="55dp"
+            android:layout_marginTop="20dp"
             android:text="TRATAMENTO DA FERIDA"
             android:textColor="#000000"
+            android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -64,7 +65,7 @@
             android:id="@+id/textView44"
             android:layout_width="375dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="20dp"
             android:lineSpacingExtra="8sp"
             android:text="     No tratamento das feridas, além dos fatores locais, existem fatores sistêmicos que podem afetar o processo de reparação da pele e dos tecidos, como a idade, a imobilidade, o estado nutricional, as doenças associadas e o uso de  medicamentos contínuos, principalmente drogas imunossupressoras. Entre os fatores locais que afetam o processo, destacam-se a localização anatômica da ferida e a presença de infecção e de tecido desvitalizado."
             android:textAlignment="textStart"
@@ -72,7 +73,7 @@
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView43" />
+            app:layout_constraintTop_toBottomOf="@+id/imageView7" />
 
         <TextView
             android:id="@+id/textView45"
@@ -86,5 +87,15 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView44" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="375dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView43"
+            app:srcCompat="@drawable/img_5" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

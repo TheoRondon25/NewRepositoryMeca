@@ -13,6 +13,61 @@
         android:layout_height="match_parent"
         tools:context=".TelaInicio">
 
+        <TextView
+            android:id="@+id/textView164"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:lineSpacingExtra="8sp"
+            android:text="     • Crônicas, feridas que têm um tempo de cicatrização maior que o esperado devido a sua etiologia. São feridas que não apresentam a fase de regeneração no tempo esperado, havendo um retardo na cicatrização."
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView163"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView163"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:text="     • agudas, quando são feridas recentes;"
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView162" />
+
+        <TextView
+            android:id="@+id/textView162"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:lineSpacingExtra="8sp"
+            android:text="     Quanto ao tempo de duração, as feridas podem ser:"
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView17" />
+
+        <TextView
+            android:id="@+id/textView161"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="TEMPO DE DURAÇÃO"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView76" />
+
         <ImageView
             android:id="@+id/btnVoltarMicrobiano"
             android:layout_width="wrap_content"
@@ -28,9 +83,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:text="Conteúdo microbiano"
+            android:text="CONTEÚDO MICROBIANO"
             android:textColor="#000000"
-            android:textSize="20sp"
+            android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -92,16 +147,23 @@
             android:id="@+id/textView76"
             android:layout_width="375dp"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
             android:lineSpacingExtra="8sp"
             android:text="     • Infectadas, feridas com presença de agente infeccioso no local e com evidência de intensa reação inflamatória e destruição de tecidos, podendo conter pus."
             android:textAlignment="textStart"
             android:textColor="#000000"
             android:textSize="18sp"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView75"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintTop_toBottomOf="@+id/textView75" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView161"
+            app:srcCompat="@drawable/img_15" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

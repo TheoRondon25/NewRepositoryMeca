@@ -28,9 +28,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:text="Fase Inflamatória"
+            android:text="FASE INFLAMATÓRIA"
             android:textColor="#000000"
-            android:textSize="20sp"
+            android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -39,7 +39,7 @@
             android:id="@+id/textView90"
             android:layout_width="375dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="15dp"
             android:lineSpacingExtra="8sp"
             android:text="     Durante a reação imediata à injúria tecidual, ocorre hemóstase e inflamação. Esta fase representa uma tentativa para limitar o dano, parando o sangramento, selando a superfície da ferida e removendo qualquer tecido necrótico, fragmentos estranhos ou bactérias presentes. A fase inflamatória é caracterizada por aumento da permeabilidade vascular, migração de células para a ferida por quimiotaxia, secreção de citocinas e fatores de crescimento na ferida, e ativação da migração de células."
             android:textAlignment="textStart"
@@ -47,7 +47,7 @@
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView89" />
+            app:layout_constraintTop_toBottomOf="@+id/imageView10" />
 
         <TextView
             android:id="@+id/textView91"
@@ -90,5 +90,15 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView92"
             app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="375dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView89"
+            app:srcCompat="@drawable/img_8" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

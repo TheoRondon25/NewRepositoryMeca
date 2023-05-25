@@ -11,7 +11,7 @@ import android.widget.ImageView;
 public class TelaIntroTratamento extends AppCompatActivity {
 
     ImageView btnVoltarIntro;
-    Button botaoFuncoesPele, botaoCaracteristicas, botaoMicrobiano, botaoCicatrizacao, botaoTempoDuracao;
+    Button botaoFuncoesPele, botaoCaracteristicas, botaoMicrobiano, botaoCicatrizacao;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,7 +21,6 @@ public class TelaIntroTratamento extends AppCompatActivity {
         botaoCaracteristicas = (Button) findViewById(R.id.btnCaracteristicas);
         botaoMicrobiano = (Button) findViewById(R.id.btnMicrobiano);
         botaoCicatrizacao = (Button) findViewById(R.id.btnCicatrizacao);
-        botaoTempoDuracao = (Button) findViewById(R.id.btnTempoDuracao);
 
         btnVoltarIntro.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -53,17 +52,6 @@ public class TelaIntroTratamento extends AppCompatActivity {
                 abreTelaCicatrizacao();
             }
         });
-        botaoTempoDuracao.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                abreTelaTempoDuracao();
-            }
-        });
-    }
-
-    private void abreTelaTempoDuracao() {
-        Intent TelaTempDur = new Intent(this, TelaTempoDuracao.class);
-        startActivity(TelaTempDur);
     }
 
     private void abreTelaCicatrizacao() {

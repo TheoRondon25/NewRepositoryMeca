@@ -96,10 +96,10 @@
             android:id="@+id/textView11"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:text="A História"
+            android:layout_marginTop="20dp"
+            android:text="A HISTÓRIA"
             android:textColor="#000000"
-            android:textSize="20sp"
+            android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -108,7 +108,7 @@
             android:id="@+id/textView14"
             android:layout_width="375dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="15dp"
             android:lineSpacingExtra="8sp"
             android:text="     Os homens da pré-história utilizavam plantas e seus extratos como cataplasmas, para estancar hemorragias e umidificar as feridas abertas. Sendo o cataplasma um emplasto de substâncias preparadas com linhaça, massa de argila, farinha de mandioca ou fubá colocadas entre dois panos, com capacidade de absorção das toxinas da pele e para tratar hematomas."
             android:textAlignment="textStart"
@@ -116,7 +116,7 @@
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+            app:layout_constraintTop_toBottomOf="@+id/imageView13" />
 
         <TextView
             android:id="@+id/textView15"
@@ -268,6 +268,16 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView29" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="375dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView11"
+            app:srcCompat="@drawable/img_11" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

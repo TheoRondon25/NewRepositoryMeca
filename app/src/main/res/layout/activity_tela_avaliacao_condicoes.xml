@@ -27,8 +27,8 @@
             android:id="@+id/textView119"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:text="Avaliação das condições clínicas"
+            android:layout_marginTop="60dp"
+            android:text="AVALIAÇÃO DAS CONDIÇÕES CLÍNICAS"
             android:textColor="#000000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -39,7 +39,7 @@
             android:id="@+id/textView120"
             android:layout_width="375dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="15dp"
             android:lineSpacingExtra="8sp"
             android:text="     Todo paciente deve ser avaliado de forma ampla, uma vez que um paciente descompensado clinicamente terá um processo de cicatrização mais difícil. Apresentam-se a seguir os fatores a serem considerados nesta avaliação."
             android:textAlignment="textStart"
@@ -47,7 +47,7 @@
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView119" />
+            app:layout_constraintTop_toBottomOf="@+id/imageView16" />
 
         <TextView
             android:id="@+id/textView121"
@@ -269,6 +269,16 @@
             app:layout_constraintHorizontal_bias="0.516"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView128" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="375dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView119"
+            app:srcCompat="@drawable/img_14" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

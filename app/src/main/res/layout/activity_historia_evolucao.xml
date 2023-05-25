@@ -44,11 +44,13 @@
 
         <TextView
             android:id="@+id/textView4"
-            android:layout_width="wrap_content"
+            android:layout_width="375dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="60dp"
             android:text="HISTÓRIA E EVOLUÇÃO NO TRATAMENTO DE FERIDAS "
+            android:textAlignment="center"
             android:textColor="#000000"
+            android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -82,7 +84,7 @@
             android:layout_width="375dp"
             android:layout_height="wrap_content"
             android:lineSpacingExtra="8sp"
-            android:text=" E para que possamos ilustrar esta evolução vamos apresentar, sistematicamente, algumas práticas naturais que, há vários milênios, vêm sendo utilizadas e que, muitas delas foram incorporadas a muitas tecnologias descobertas."
+            android:text="      E para que possamos ilustrar esta evolução vamos apresentar, sistematicamente, algumas práticas naturais que, há vários milênios, vêm sendo utilizadas e que, muitas delas foram incorporadas a muitas tecnologias descobertas."
             android:textAlignment="textStart"
             android:textColor="#000000"
             android:textSize="18sp"

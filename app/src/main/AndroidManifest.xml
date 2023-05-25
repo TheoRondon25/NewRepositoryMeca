@@ -33,9 +33,6 @@
             android:name=".TelaFaseInflamatoria"
             android:exported="false" />
         <activity
-            android:name=".TelaTempoDuracao"
-            android:exported="false" />
-        <activity
             android:name=".TelaCicatrizacao"
             android:exported="false" />
         <activity
